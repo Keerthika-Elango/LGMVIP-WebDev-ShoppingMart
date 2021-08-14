@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoppingMart</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</head>
+<body>
+    <section id="home">
+        <!--navbar-->
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--action="/action_page.php"-->
+                <a href="index.html" class="navbar-brand" style="font-family: cursive; font-size: 250%;"><i class="fa fa-delicious "></i> ShoppingMart</a>
+            </div>
+            <div class="collapse navbar-collapse" id="menu" style="font-size: 20px;">
+              <form class="navbar-form navbar-left" >
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Search" name="search">
+                  <div class="input-group-btn">
+                    <button class="btn btn-default" type="submit">
+                      <i class="glyphicon glyphicon-search"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <ul class="nav navbar-nav navbar-left" style="font-family: cursive;">
+                <li> <a href="#product"><i class=" fa fa-database"></i> Products</a></li>
+                <li > <a href="#cart"><i class="glyphicon glyphicon-shopping-cart"></i> Cart</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right" style="font-family: cursive;">
+                <li><a href="#home"><i class="glyphicon glyphicon-home"> Home</i></a></li>
+                <li> <a href="#about"><i class="glyphicon glyphicon-user"></i> About</a></li>
+                <li> <a href="#register"><i class="glyphicon glyphicon-off"></i> Register</a></li>
+                <li> <a href="#contact"><i class="fa fa-address-book-o"></i> Contact</a></li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="col-md-12 " style="font-family: cursive; color: white;  position: absolute; right: 10px; top: 150px; margin-left: 50px;">
+          <h1 style="font-size:850%; margin-left: 40px;"> WELCOME TO SHOPPING MART</h1>
+          <H4 style="font-size:600%; margin-left: 40px;">Ultimate place for Grocery</H4>
+          <br>
+          <button class="btn btn-success btn-lg" style="margin-left: 40px;"><a href="#register"><i class="glyphicon glyphicon-off"></i> SignIn</a></button>
+       </div>
+      </div>
+    </section>
+    <section id="product">
+      <div class="col-md-12 WELL" style="margin-top: 50px; margin-bottom: 10px;">
+        <h1 class="type" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin-bottom: 30px;text-align: center;" ><i class=" fa fa-database"></i> PRODUCTS</h1>
+        <H2 class="text-warning" style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">VEGETABLES</H2>
+        <div class="row">
+            <div class="col-md-2 " style="text-align: center; ">
+            <h4>CARROT</h4>
+            <img class="img-responsive img-thumbnail" src="img/carrot.jpg" style="margin: 5px;">
+            <button class="btn btn-success">Rs.25</button>
+          </div>
+          <div class="col-md-2 " style="text-align: center;">
+            <H4>CABBAGE</H4>
+            <img class="img-responsive img-thumbnail" src="img/cabbage.jpg"style="margin: 5px;">
+            <button class="btn btn-success">Rs.18</button>
+              </div>
+          <div class="col-md-2 " style="text-align: center;">
+            <H4>ONION</H4>
+            <img class="img-responsive img-thumbnail" src="img/onion.jpg" style="margin: 5px;">
+            <button class="btn btn-success">Rs.30</button>
+          </div>
+          <div class="col-md-2 " style="text-align: center;">
+            <H4>TOMATO</H4>
+            <img class="img-responsive img-thumbnail" src="img/tomato.jpg" style="margin: 5px;">
+            <button class="btn btn-success">Rs.20</button>
+          </div>
+          <div class="col-md-2 " style="text-align: center;">
+            <H4>CAULIFLOWER</H4>
+            <img class="img-responsive img-thumbnail" src="img/cauliflower.jpg" style="margin: 5px;">
+            <button class="btn btn-success">Rs.22</button>
+          </div>
+          <div class="col-md-2 " style="text-align: center;">
+            <H4>BROCOLLI</H4>
+            <img class="img-responsive img-thumbnail" src="img/brocolli.jpg" style="margin: 5px;">
+            <button class="btn btn-success">Rs.50</button>
+          </div>
+        </div>
+           <hr>
+    
+       <div class="col-md-12 WELL" style="margin-top: 10px; margin-bottom: 10px;">
+         
+            <H2 class="text-warning" style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">FRUITS</H2>
+            <div class="row">
+              <div class="col-md-2 " style="text-align: center;" >
+                <h4>ORANGE</h4>
+                <img class="img-responsive img-thumbnail" src="img/orange.jpg" style="margin: 5px;">
+                <button class="btn btn-success"style="margin-top: 5px;">Rs.30</button>
+              </div>
+              <div class="col-md-2 " style="text-align: center;">
+                <H4>PINEAPPLE</H4>
+                <img class="img-responsive img-thumbnail" src="img/pineapple.jpg" style="margin: 5px;">
+                <button class="btn btn-success"style="margin-top: 5px;">Rs.45</button>
+                  </div>
+              <div class="col-md-2 " style="text-align: center;">
+                <H4>PAPAYA</H4>
+                <img class="img-responsive img-thumbnail" src="img/papaya.jpg" style="margin: 5px;">
+                <button class="btn btn-success"style="margin-top: 5px;">Rs.29</button>
+              </div>
+              <div class="col-md-2 " style="text-align: center;">
+                <H4>POMOGRANATE</H4>
+                <img class="img-responsive img-thumbnail" src="img/pomogranate.jpg" style="margin: 5px;">
+                <button class="btn btn-success"style="margin-top: 5px;">Rs.120</button>
+              </div>
+              <div class="col-md-2 " style="text-align: center;">
+                <H4>APPLE</H4>
+                <img class="img-responsive img-thumbnail" src="img/APPLE.JPG" style="margin: 5px;">
+                <button class="btn btn-success"style="margin-top: 5px;">Rs.130</button>
+              </div>
+              <div class="col-md-2 " style="text-align: center;">
+                <H4>BANANA</H4>
+                <img class="img-responsive img-thumbnail" src="img/BANANA.JPG" style="margin: 5px;">
+                <button class="btn btn-success"style="margin-top: 5px;">Rs.30</button>
+              </div>
+            </div>
+            <hr>
+          
+
+              
+
+    
+      <div class="col-md-12 WELL" style="margin-top: 10px; margin-bottom: 10px; ">
+         
+        <H2 class="text-warning" style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">GROCERY</H2>
+        <div class="row">
+          <div class="col-md-2 " style="text-align: center;" >
+            <h4>RICE</h4>
+            <img class="img-responsive img-thumbnail" src="img/rice.jpg" style="margin: 5px;">
+            <button class="btn btn-success" style="margin-top: 5px;">Rs.50</button>
+          </div>
+          <div class="col-md-2 " style="text-align: center;">
+            <H4>WHEAT</H4>
+            <img class="img-responsive img-thumbnail" src="img/wheat.jpg" style="margin: 5px;">
+            <button class="btn btn-success"style="margin-top: 5px;">Rs.30</button>
+              </div>
+          <div class="col-md-2 " style="text-align: center;">
+            <H4>RAGI</H4>
+            <img class="img-responsive img-thumbnail" src="img/ragi.jpg" style="margin: 5px;">
+            <button class="btn btn-success"style="margin-top: 8px;">Rs.32</button>
+          </div>
+          <div class="col-md-2 " style="text-align: center;">
+            <H4>RAVA</H4>
+            <img class="img-responsive img-thumbnail" src="img/rava.jpg" style="margin: 5px;">
+            <button class="btn btn-success">Rs.80</button>
+          </div>
+          <div class="col-md-2 " style="text-align: center;">
+            <H4>PEARL MILLET</H4>
+            <img class="img-responsive img-thumbnail" src="img/pearl millet.jpg" style="margin: 5px;">
+            <button class="btn btn-success"style="margin-top: 5px;">Rs.40</button>
+          </div>
+          <div class="col-md-2 " style="text-align: center;">
+            <H4>BASMATHI</H4>
+            <img class="img-responsive img-thumbnail" src="img/basmathi.jpg" style="margin: 5px;">
+            <button class="btn btn-success" style="margin-top: 5px;">Rs.80</button>
+          </div>
+        </div>
+        <hr>
+        
+          <div class="col-md-12 WELL" style="margin-top: 10px;">
+             
+            <H2 class="text-warning" style="text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">OTHERS</H2>
+            <div class="row">
+              <div class="col-md-2 " style="text-align: center;" >
+                <h4>UTENSILS</h4>
+                <img class="img-responsive img-thumbnail" src="img/utensils.jpg" style="margin: 5px;">
+               
+              </div>
+              <div class="col-md-2 " style="text-align: center;">
+              <H4>GADGETS</H4>
+                <img class="img-responsive img-thumbnail" src="img/electronicitems.jpg" style="margin: 5px;">
+               
+                  </div>
+              <div class="col-md-2 " style="text-align: center;">
+                <H4>PLASTIC PRODUCTS</H4>
+              
+                <img class="img-responsive img-thumbnail" src="img/plasticpro.jpg" style="margin: 5px;">
+                
+              </div>
+              <div class="col-md-2 " style="text-align: center;">
+                <H4>CLEANING PRODUCTS</H4>
+                <img class="img-responsive img-thumbnail" src="img/toilet.jpg" style="margin: 5px;">
+                
+              </div>
+              <div class="col-md-2 " style="text-align: center;">
+                <H4>STATIONARY</H4>
+                <img class="img-responsive img-thumbnail" src="img/stationary.jpg" style="margin: 5px;">
+               
+              </div>
+              <div class="col-md-2 " style="text-align: center;">
+                <H4>PHARMACY</H4>
+                <img class="img-responsive img-thumbnail" src="img/tablets.jpg" style="margin: 5px;">
+                
+              </div>
+            </div>
+      
+
+    </section>
+
+      <section id="product1"></section>
+
+        <!--cart-->
+        
+       <div class="cart">
+        <section id="cart">
+            <SECTION class="container" style="margin:60px">
+              <div class="col-md-12">
+                <div class="col-md-6" style=" box-align: center;  font-size: 20px; margin-top: 60px;  margin: 10px; margin-bottom: 40px;">
+                <h1 >CART SECTION</h1>
+                 
+                  <form action="#">
+                      <div class="form-group">
+                          <label for="productname" class="control-label">
+                              Product Name
+                          </label>
+                          <input type="text" class="form-control" placeholder="Enter the product">
+                      </div>
+                      <div class="form-group">
+                          <label for="price" class="control-label">
+                              Price
+                          </label>
+                          <input type="text" class="form-control" placeholder="Enter the price">
+                      </div>
+                      <div class="form-group">
+                          <label for="quantity" class="control-label">
+                             Quantity
+                          </label>
+                          <input type="text" class="form-control" placeholder="Enter number of products">
+                      </div>
+                      <button type="submit" class="btn btn-success">
+                          <i class="glyphicon glyphicon-download"></i>
+                          Save</button>
+                  </form>
+                </div>
+                <div class="col-md-6">
+                  <table class="table table-bordered table-responsive" style="text-align: center;  font-size: 20px;">
+                    <tr>
+                        <th style="text-align: center;" >S.No</th>
+                        <th style="text-align: center;" >Product Name</th>
+                        <th style="text-align: center;" >Price</th>
+                        <th style="text-align: center;" >Quantity</th>
+                        
+                    </tr>
+                    <tr>
+                        
+                        <td>1</td>
+                        <td>Rice</td>
+                        <td>1300</td>
+                        <td><a href="#" class="btn btn-changes btn-xs ">
+                            <i class="glyphicon glyphicon-plus-sign"></i>
+                            1 bag 
+                            <i class="glyphicon glyphicon-minus-sign"></i>
+                        </a></td>
+                        
+                       
+                    </tr>
+                    <tr>
+                        
+                        <td>2</td>
+                        <td>Wheat Powder</td>
+                        <td>500</td>
+                        <td><a href="#" class="btn btn-changes btn-xs">
+                            <i class="glyphicon glyphicon-plus-sign"></i>
+                              1 bag
+                              <i class="glyphicon glyphicon-minus-sign"></i>
+                        </a></td>
+                        
+                        
+                    </tr>
+                    <tr>
+                        
+                        <td>3</td>
+                        <td>Rava</td>
+                        <td>130</td>
+                        <td><a href="#" class="btn btn-changes btn-xs">
+                            <i class="glyphicon glyphicon-plus-sign"></i>
+                            1 pack 
+                            <i class="glyphicon glyphicon-minus-sign"></i>
+                        </a></td>
+                        
+                        
+                    </tr>
+                       
+                  </table>
+                  <button type="submit" class="btn btn-danger" style="margin: 10px;">Book Order Now</button>
+                </div>
+      
+        </div>
+             </SECTION>
+        
+              
+        </section>
+
+      </div>
+     
+          <!--register-->
+    <section id="register">
+        <div class="container" style="margin-top: 30px; margin-right: 100px;">
+          <div class="row">
+              <div class="col-md-12" style="margin: 100px;" >
+                  
+                  <div class="col-md-4" style=" margin-left: 10px;  margin-right: 30px;padding: 10px; font-family: Georgia, 'Times New Roman', Times, serif; font-size: 20px;  text-align: center;">
+                    <h1 style="font-family:  Georgia, 'Times New Roman', Times, serif; text-align: center; font-weight: bolder;"><i class="glyphicon glyphicon-off"></i> Register</h1>
+                    <hr>
+                    <form>
+                          <div class="form-group ">
+                              <i class="glyphicon glyphicon-envelope"></i>
+                              <label for="email" class="control-label ">Email</label>
+                              <input type="email" id="email" name="Email" class="form-control" placeholder="Enter your Email id">
+                          </div>
+                          <div class="form-group">
+                              <label for="password" class="control-label">Password</label>
+                              <input type="password" id="password" name="Password" class="form-control" placeholder="Enter your Password">
+                          </div>
+                          <div class="form-group">
+                              <label for="number" class="control-label ">Phone Number</label>
+                              <input type="number" id="number" name="Phonenumber" class="form-control" placeholder="Enter your Phone Number">
+                          </div>
+                          <div class="checkbox">
+                              <label style="font-weight: bolder;"> <input type="checkbox">Remember me</label>
+                          </div>
+                          <div class="textarea">
+                            <textarea name="Address" id="" cols="20" rows="4" placeholder="Enter your Address"></textarea>
+                          </div>
+                          <button class="btn btn-success btn-lg">
+                              SignIn
+                          </button>
+                      </form>
+                  </div>
+                  <br>
+                  
+ <div class="container">
+                    <div class="col-md-6 "style="margin-top: 60px; margin-left:-40px;" >
+                      <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248756.11675384393!2d80.06892509328563!3d13.047487785967562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1628782588429!5m2!1sen!2sin" width="300" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+    
+                  </div>
+                
+                 
+              </div>
+          </div>
+      
+      </div>
+    </section>
+      <!--about-->
+          <section id="about">
+            <div class="container" style="margin-top: 60px; margin-bottom: 70px;">
+                <h1 style="text-align: center;"><i class="glyphicon glyphicon-user"></i> ABOUT</h1>
+                <div class="row" > 
+                    <div class="col-md-9 " style="text-align: center; justify-content: center; margin-left: 15%;">
+                        <div class="col-md-3 well"style= "margin: 20px">
+                          <img class="img-responsive img-thumbnail" src="img/man.jpg" >
+                          <p class="bg-danger" style="padding: 20px; font-size: 15px; text-align: center;">John</p>
+                        </div>
+                        <div class="col-md-3 well"style= "margin: 20px">
+                            <img class="img-responsive img-thumbnail" src="img/women3.jpg">
+                            <p class="bg-success" style="padding: 20px;font-size: 15px; text-align: center;">Linda
+                            </p>
+                        </div>
+                        <div class="col-md-3 well"style= "margin: 20px">
+                            <img class="img-responsive img-thumbnail" src="img/man2.jpg">
+                            <p class="bg-warning" style="padding: 20px;font-size: 15px ;text-align: center;">Christy
+                            </p>
+                        </div>
+                  </div>
+                  <div class="col-md-12"> 
+                        <p class="bg-success" style="padding: 5px; margin-bottom: 30px;font-size: 20px; margin-left: 5%;  margin-top: 20px; font-family: cursive">A place where people can 
+                            come together for buying and selling including malls, stores, supermarket, flee market, etc. The term 'mart' is an abbreviation for supermarket.
+                            Marts are commonly used to refer to a building where wholesalers selling goods and merchandise to retailers.
+                    
+                </div>
+                    
+            </div>
+      </section> 
+     <!--contact-->
+     <section id="contact">
+        <div class="footer ">  
+          <div class="col-md-12"  style="text-align: center; margin-top: 30px;">
+            <footer class="container"  >
+              <a href="#" style="font-size: 20px;"><i class="fa fa-facebook-official"></i></a>
+              <a href="#" style="font-size: 20px;"><i class="fa fa-pinterest-p"></i></a>
+              <a href="#" style="font-size: 20px;"><i class="fa fa-twitter"></i></a>
+              <a href="#" style="font-size: 20px;"><i class="fa fa-flickr"></i></a>
+              <a href="#" style="font-size: 20px;"><i class="fa fa-linkedin"></i></a>
+              <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;"> CONTACT</h1>
+              <H4 style="font-family: Georgia, 'Times New Roman', Times, serif;"><i class="fa fa-tablet"></i> PHONE NUMBER: 5623478952</H4>
+              <H4 style="font-family: Georgia, 'Times New Roman', Times, serif;"><i class="fa  fa-google-plus"></i> GMAIL: agrispot@gmail.com</H4>
+              <h4 style="font-family: Georgia, 'Times New Roman', Times, serif;"><i class="fa fa-adn"></i> ADDRESS: 45,WEST STREET,KLIJD 12</h4>
+              <p style="font-family: Georgia, 'Times New Roman', Times, serif; font-size: 20px;"</p>&copy; Copyrights 2021</p>
+            </footer>
+          </div>
+        </div
+      </section>
+</body>
+</html>
